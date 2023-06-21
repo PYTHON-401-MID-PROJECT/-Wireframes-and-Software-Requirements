@@ -51,3 +51,34 @@ As a user, I want to ..... using voice Record .
 |3|extra large|
 |4|extra large|
 |5|extra small|
+
+# Domain Modeling
+
+### Entities:
+
+1. PdfReader: Represents a PDF reader object.
+2. RecursiveCharacterTextSplitter: Represents a text splitter object that divides the text into chunks.
+3. VectorStore: Represents a vector store for embeddings.
+4. OpenAIEmbeddings: Represents embeddings generated using OpenAI.
+5. FAISS: Represents a vector store implementation using FAISS.
+6. llm: Represents an instance of the OpenAI language model.
+7. Chain: Represents a question-answering chain.
+
+### Relationships:
+
+- PdfReader is associated with the uploaded PDF file.
+- RecursiveCharacterTextSplitter splits the text extracted from the PDF into chunks.
+- VectorStore is created from the chunks of text.
+- OpenAIEmbeddings generates embeddings for the chunks of text.
+- FAISS utilizes the embeddings to create the VectorStore.
+- llm is an instance of the OpenAI language model used for question-answering.
+- Chain is created using the llm instance for question-answering.
+
+### Domain Model Diagram
+
+![domain model diagram](<Screenshot (146).png>)
+
+1. Request: Represents a user's request for a particular government service. It may have properties like request ID, user ID, and service ID.
+2. Service: Represents a government service
+3. Instruction: Represents the instructions provided to the user for completing a task related to a government service. like instruction ID, service ID, step description, and additional resources.
+4. Feedback: Represents the user follow up information
