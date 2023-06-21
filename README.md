@@ -1,4 +1,7 @@
 # Wireframes-and-Software-Requirements
+# Wireframes
+the wireframe is simply will be the whatsapp chat which will look like this:
+
 
 # User Stories
 ### Title : Story one
