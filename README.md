@@ -76,7 +76,7 @@ As a user, I want to ..... using voice Record .
 
 ### Domain Model Diagram
 
-![domain model diagram](<Screenshot (146).png>)
+![domain model diagram](./assests/Screenshot_146.png)
 
 1. Request: Represents a user's request for a particular government service. It may have properties like request ID, user ID, and service ID.
 2. Service: Represents a government service
