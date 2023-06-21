@@ -54,6 +54,29 @@ As a user, I want to ..... using voice Record .
 |4|extra large|
 |5|extra small|
 
+# Software Requirements
+### Vision
+What is the vision of this product?
+
+
+The vision of JoEasyGov is to revolutionize the way people interact with government transactions in Jordan by leveraging AI technology. The product aims to streamline and simplify the often complex and time-consuming process of dealing with governmental procedures. By providing a user-friendly and efficient platform, JoEasyGov envisions enhancing citizen experience, reducing bureaucracy, and promoting efficiency in government services. Ultimately, the goal is to empower individuals by offering accessible and personalized assistance, making government transactions more convenient and hassle-free.
+
+
+What pain point does this project solve?
+
+
+This project addresses the pain points associated with complex government procedures, lack of information, limited accessibility, and time-consuming processes in Jordan. JoEasyGov streamlines government transactions, simplifying the steps and providing clear guidance to users, thereby reducing confusion and frustration. It serves as a reliable source of accurate and up-to-date information, ensuring individuals have the necessary knowledge to make informed decisions. Additionally, JoEasyGov's 24/7 availability and electronic document submission feature eliminate the constraints of fixed working hours and physical visits, saving users time and effort.
+
+
+Why should we care about your product?
+
+
+You should care about JoEasyGov because it addresses the challenges and complexities individuals face when dealing with government transactions in Jordan. By streamlining processes, providing accessible information, and offering a user-friendly interface, JoEasyGov simplifies the entire experience. It saves time, reduces bureaucracy, and promotes efficiency, ultimately enhancing citizen satisfaction. With its 24/7 availability and round-the-clock access, JoEasyGov offers convenience to individuals, making government services more accessible to all.
+
+
+
+
+
 # Domain Modeling
 
 ### Entities:
@@ -84,3 +107,5 @@ As a user, I want to ..... using voice Record .
 2. Service: Represents a government service
 3. Instruction: Represents the instructions provided to the user for completing a task related to a government service. like instruction ID, service ID, step description, and additional resources.
 4. Feedback: Represents the user follow up information
+
+finally we dont need to Use a Database.
