@@ -1,7 +1,7 @@
 # Wireframes-and-Software-Requirements
 # Wireframes
 the wireframe is simply will be the whatsapp chat which will look like this:
-
+![](./assests/Wireframe.png)
 
 # User Stories
 ### Title : Story one
@@ -50,4 +50,4 @@ As a user, I want to ..... using voice Record .
 |2|extra large|
 |3|extra large|
 |4|extra large|
-|5||
+|5|extra small|
